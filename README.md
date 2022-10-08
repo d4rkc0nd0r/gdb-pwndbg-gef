@@ -1,5 +1,7 @@
 # Pwndbg + GEF - One for all, and all for one
 
+> **NOTE**: This is a modified [fork](https://github.com/apogiatzis/gdb-peda-pwndbg-gef). I didn't include **PEDA** as it is not maintained by its author.
+
 This is a script which installs **Pwndbg** and **GEF** GDB plugins in a single command.
 
 Run `install.sh` and then use one of the commands below to launch the corresponding GDB environment:
@@ -8,8 +10,6 @@ Run `install.sh` and then use one of the commands below to launch the correspond
 gdb-pwndbg
 gdb-gef
 ```
-
-> **NOTE**: This is a modified [fork](https://github.com/apogiatzis/gdb-peda-pwndbg-gef). I didn't include **PEDA** as it is not maintained by its author.
 
 # Installation
 
