@@ -1,10 +1,4 @@
-echo "[+] Updating PEDA..."
-cd ~/peda
-git pull
-
-echo "[+] Updating PEDA-ARM..."
-cd ~/peda-arm
-git pull
+#!/bin/bash
 
 echo "[+] Updating Pwndbg..."
 cd ~/pwndbg

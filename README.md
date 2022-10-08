@@ -1,31 +1,26 @@
-# Pwndbg + GEF + Peda - One for all, and all for one
+# Pwndbg + GEF - One for all, and all for one
 
-This is a script which installs Pwndbg, GEF, and Peda GDB plugins in a single command.
+This is a script which installs **Pwndbg** and **GEF** GDB plugins in a single command.
 
 Run `install.sh` and then use one of the commands below to launch the corresponding GDB environment:
 
-```
-gdb-peda
-gdb-peda-intel
-gdb-peda-arm
+```sh
 gdb-pwndbg
 gdb-gef
 ```
 
-For more information read the relevant blog post:
-
-https://medium.com/bugbountywriteup/pwndbg-gef-peda-one-for-all-and-all-for-one-714d71bf36b8
+> **NOTE**: This is a modified [fork](https://github.com/apogiatzis/gdb-peda-pwndbg-gef). I didn't include **PEDA** as it is not maintained by its author.
 
 # Installation
 
-```
-cd ~ && git clone https://github.com/apogiatzis/gdb-peda-pwndbg-gef.git
-cd ~/gdb-peda-pwndbg-gef
+```sh
+cd ~ && git clone https://github.com/d4rkc0nd0r/gdb-pwndbg-gef.git
+cd ~/gdb-pwndbg-gef
 ./install.sh
 ```
 
 ## Update
 
-```
+```sh
 ./update.sh
 ```
